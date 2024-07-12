@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="866.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="783.0" layoutY="80.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 55; -fx-arc-width: 55;" width="344.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff9925" height="80.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="60.0" layoutX="14.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 45; -fx-arc-width: 40;" width="208.0" />
+      <Circle fill="#c486e8" layoutX="946.0" layoutY="37.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="#fffafa" layoutX="937.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="993.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shridhar (Admin)">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="5.0" layoutY="100.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" style="-fx-background-radius: 35; -fx-font-size: 25px; -fx-font-family: Helvetica; -fx-alignment: left; -fx-background-color: #f8f8f8;" text="Dashboard">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="157.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" style="-fx-background-radius: 35; -fx-background-color: #f8f8f8; -fx-alignment: left;" text="Patients">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="272.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" style="-fx-background-radius: 35; -fx-background-color: #f8f8f8; -fx-alignment: left;" text="Appointments">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="215.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" style="-fx-background-radius: 35; -fx-alignment: left; -fx-background-color: #f8f8f8;" text="Cases">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="801.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" style="-fx-background-radius: 35; -fx-alignment: left; -fx-background-color: #f8f8f8;" text="Logout ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="331.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" style="-fx-background-radius: 35; -fx-background-color: #f8f8f8; -fx-alignment: left;" text="Users">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="350.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" wrappingWidth="197.7607421875">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="60.0" fitWidth="73.0" layoutX="5.0" layoutY="9.0">
+         <image>
+            <Image url="@HandLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="42.0" layoutY="-55.0">
+         <image>
+            <Image url="@text.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
