@@ -1,0 +1,23 @@
+FROM openjdk:24-jdk-slim
+
+WORKDIR /app
+
+# Define build-time argument
+
+ARG imageName
+
+#Set environment variable from ARG 
+ENV IMAGE_NAME=$(imageName)
+
+#COPY jar from build context to /app directory in the image 
+COPY target/$(IMAGE_NAME).jar $(IMAGE_NAME).jar
+
+#Set the entry point
+
+ENTRYPOINT ["sh", "-c", "java -jar /app/$(IMAGE_NAME).jar"]
+
+# mvn install   
+# mvn spring-boot:run 
+#  docker run -d --name sonarqube -p 9000:9000 sonarqube
+#  mvn clean verify sonar:sonar -Dmaven.test.skip=true -Dsonar.projectKey=directory-service -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_4915a479d19c7e50dd8879497e07d5fe0af8a163
+#  mvn clean verify sonar:sonar "-Dsonar.projectKey=hospital-management" "-Dsonar.host.url=http://host.docker.internal:9000" "-Dsonar.token=sqp_4915a479d19c7e50dd8879497e07d5fe0af8a163"
